@@ -1,0 +1,72 @@
+ body{
+                background-image: linear-gradient(to right,#13547a , #80d0c7);
+            }
+            .navbar-brand{
+                -webkit-animation-name: example; 
+                -webkit-animation-duration: 10s; 
+                animation-name: example;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+
+            }
+            @-webkit-keyframes example {
+                0%   {color: red;}
+                15%  {color: yellow;}
+                30%  {color: #DDA0DD;}
+                45% {color: aqua;}
+                60% {color: #7fff00;}
+                75% {color: #DC143C;}
+                90% {color: #F08080;}
+            }
+
+            /* Standard syntax */
+            @keyframes example {
+                0%   {color: red;}
+                15%  {color: yellow;}
+                30%  {color: #DDA0DD;}
+                45% {color: aqua;}
+                60% {color: #7fff00;}
+                75% {color: #DC143C;}
+                90% {color: #F08080;}
+            }
+            .page-header{
+                margin-left:4%;
+            }
+
+            input[type=text]{
+                -webkit-transition: all 0.30s ease-in-out;
+                -moz-transition: all 0.30s ease-in-out;
+                -ms-transition: all 0.30s ease-in-out;
+                -o-transition: all 0.30s ease-in-out;
+                outline: none;
+                padding: 3px 0px 3px 3px;
+                margin: 5px 1px 3px 0px;
+                border: 1px solid #DDDDDD;
+            }
+
+            input[type=text]:focus
+            {
+                box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+                padding: 3px 0px 3px 3px;
+                margin: 5px 1px 3px 0px;
+                border: 1px solid rgba(81, 203, 238, 1);
+            }
+            #defaulter-table ,#response-table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 50%;
+                margin-top:5%;
+                margin-left:15%;
+
+            }
+
+            td, th {
+                border: 0.5px solid black;
+                text-align: left;
+                padding: 8px;
+                height:26px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }

@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2018, 2:43:39 PM
+    Author     : ignite151
+*/
+.mtb{
+    margin: 120px 0;
+}
+
+.logout{
+    position: absolute;
+    right: 20px;
+}
+.user-name{
+    position: absolute;
+    right: 120px;
+}
+#as_name{
+    display: inline !important;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #bbb;
+    padding: 5px;
+    width: 100%;
+}
+#as_name:focus{
+    outline: none;
+}
+.batches td{
+    padding : 0px 10px !important;
+}
+.batches{
+    margin: 5px;
+}
+body{
+    min-width: 500px !important;
+}
+.up{
+    width : 200px !important;
+}
+.bg-expired{
+    background : #f8d7da;
+}
+#sbtn,#cbtn,#abtn{
+    cursor: pointer;
+}
+.ed{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
